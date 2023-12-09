@@ -1,0 +1,44 @@
+body {
+    font-family: "Roboto", "HelveticaNeue", Helvetica Neue, Helvetica, Arial, sans-serif;
+    margin: 0 1rem;
+    line-height: 150%;
+    font-weight: 50;
+    letter-spacing: .3;
+}
+.first_fold {
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    margin: 15rem auto 0 auto;
+}
+.picture {
+    height: 100%;
+    min-width: 50%;
+    display: flex;
+    justify-content: center;
+    align-content: end;
+}
+
+img {
+    width: 50%;
+    height: 50%;
+    margin: 10px 0px 10px 10px;
+}
+
+.intro {
+    text-align: left;
+}
+
+.row {
+    width: 70%;
+    height: .3rem;
+    background-color: gray;
+    margin: 2rem auto 0 auto;
+}
+
+h2 {
+    line-height: 1.25;
+    font-weight: 1000;
+}
+
+
