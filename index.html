@@ -3,12 +3,19 @@
         <title>!</title>
         <link rel="stylesheet" href="https://leetcode.com./style.css">
         <style>
+            body {
+                margin: 0;
+                padding: 0;
+                background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+                min-height: 100vh;
+            }
             .intro {
                 text-align: center;
                 font-family: 'JetBrains Mono', 'Fira Code', 'Source Code Pro', monospace;
                 font-size: 1.5rem;
                 margin: 2rem auto;
                 max-width: 800px;
+                color: #2d3436;
             }
             .first_fold {
                 min-height: 100vh;
@@ -24,6 +31,10 @@
                 align-items: center;
                 text-decoration: none;
                 margin: 0 10px;
+                transition: transform 0.2s ease;
+            }
+            .social-links a:hover {
+                transform: translateY(-2px);
             }
             .social-links a[href*="linkedin"] {
                 color: #0077b5;
